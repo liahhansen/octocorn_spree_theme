@@ -258,7 +258,7 @@ legend {
 }
 body {
   margin-top: 10px;
-  background: #ffffff url(/assets/bg_water.png) top left no-repeat;
+  background: #ffffff url(/assets/bg_water.png) top center no-repeat;
 }
 div.left {
   float: left;
@@ -275,7 +275,6 @@ a { outline: none; }
   min-height: 420px;
   position: relative;
 }
-body.two-col #wrapper { background-image: url(/assets/wrapper-back-2.png); }
 .container {
   width: 950px;
   margin: 0 auto;
@@ -307,6 +306,7 @@ body.two-col #content {
   position: relative;
   color: #2e6ab1;
   clear: both;
+  margin-bottom:20px;
 }
 #header a { color: #2e6ab1; }
 #header a:hover { color: #eeeeee; }
@@ -409,7 +409,6 @@ ul#language-bar strong { font-weight: normal; }
 ul#nav-bar {
   line-height: 50px;
   float: right;
-  clear: both;
   font-size: 1.2em;
   list-style: none;
   margin: 0;
@@ -915,4 +914,3 @@ div#checkout #checkout-summary {
   padding: 20px;
   width: 180px;
 }
-
