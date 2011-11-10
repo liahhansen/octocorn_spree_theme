@@ -1,6 +1,6 @@
-module SpreeBlueTheme
+module OctocornSpreeTheme
   class Engine < Rails::Engine
-    railtie_name "spree_blue_theme"
+    railtie_name "octocorn_spree_theme"
 
     config.autoload_paths += %W(#{config.root}/lib)
 
